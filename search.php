@@ -427,7 +427,7 @@ $cache_ttl = 86400;
 
                             $db = $client->selectDatabase($databaseName);
 
-                            $indiceCollection = $db->indice;
+                            $indiceCollection = $db->$collection;
 
                             $resultsFound = false;
 
